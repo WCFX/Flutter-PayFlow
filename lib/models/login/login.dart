@@ -15,9 +15,11 @@ class Login extends StatefulWidget {
 class _LoginState extends State<Login> {
   @override
   Widget build(BuildContext context) {
+    // final appBar = AppBar(title: Text('Exemplo'));
     final size = MediaQuery.of(context).size;
+    bool isIOS = Theme.of(context).platform == TargetPlatform.iOS;
+    // final screenHeight = (size.height - appBar.preferredSize.height) - MediaQuery.of(context).padding.top;
     return Scaffold(
-      backgroundColor: AppColors.background,
       body: Container(
         width: size.width,
         height: size.height,
@@ -26,34 +28,34 @@ class _LoginState extends State<Login> {
             Container(
               color: AppColors.primary,
               width: size.width,
-              height: size.height * 0.30,
+              height: size.height * .4,
             ),
             Positioned(
-              top: 50,
+              top: isIOS ? size.height * .0 : size.height * .1,
               left: 0,
               right: 0,
               child: Image.asset(
                 AppImages.person,
                 width: 208,
-                height: 300,
+                height: isIOS ? size.height * 0.6 : size.height * 0.4,
               ),
             ),
             Positioned(
-              top: size.height * 0.38,
-              left: 0,
-              right: 0,
+              top: isIOS ? size.height * 0.5 : size.height * 0.55,
+              left: size.width * .2,
+              right: size.width * .2,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Image.asset(AppImages.logoMini),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 70, right: 70),
-                    child: Text(
-                      "Organize seus boletos em um só lugar",
-                      textAlign: TextAlign.center,
-                      style: TextStyles.titleHome,
-                    ),
+                  Image.asset(
+                    AppImages.logoMini,
+                    height: isIOS ? size.height * 0.10 : size.height * .05,
+                  ),
+                  Text(
+                    "Organize seus boletos em um só lugar",
+                    textAlign: TextAlign.center,
+                    style: TextStyles.titleHome,
                   ),
                 ],
               ),
