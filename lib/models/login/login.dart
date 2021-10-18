@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:payflow/models/Home/home.dart';
 import 'package:payflow/styles/themes/colors.dart';
 import 'package:payflow/styles/themes/fonts.dart';
 import 'package:payflow/styles/themes/images.dart';
@@ -63,7 +64,12 @@ class _LoginState extends State<Login> {
               right: size.width * 0.2,
               child: SocialLoginButton(
                 onTap: () {
-                  print('Click');
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => Home(),
+                    ),
+                  );
                 },
               ),
             )
