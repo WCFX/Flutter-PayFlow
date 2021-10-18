@@ -9,6 +9,7 @@ class SocialLoginButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final size = MediaQuery.of(context).size;
     return InkWell(
       onTap: onTap,
       child: Container(
@@ -24,7 +25,7 @@ class SocialLoginButton extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Container(
-              width: 50,
+              width: size.width * 0.15,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(1),
                 border: Border.fromBorderSide(
@@ -34,7 +35,7 @@ class SocialLoginButton extends StatelessWidget {
               child: Image.asset(AppImages.google),
             ),
             Padding(
-              padding: const EdgeInsets.only(right: 30),
+              padding: const EdgeInsets.only(right: 10),
               child: Text('Sign in with Google'),
             ),
           ],
