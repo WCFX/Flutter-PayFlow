@@ -61,7 +61,11 @@ class _LoginState extends State<Login> {
               bottom: size.height * 0.05,
               left: size.width * 0.2,
               right: size.width * 0.2,
-              child: SocialLoginButton(),
+              child: SocialLoginButton(
+                onTap: () {
+                  print('Vem ki vem ki vem kikando');
+                },
+              ),
             )
           ],
         ),
