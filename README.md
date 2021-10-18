@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="PayFlow" src="https://imgur.com/3nuctAt width="200px">
+  <img alt="PayFlow" src="https://imgur.com/a/4IG661I" width="200px">
 </p>
 
 <p align="center">
@@ -34,7 +34,7 @@
 <h2 align="center">Layout 🎨</h2>
 
    <p align="center">
-      <img alt="PayFlow" title="PayFlow" src=".https://imgur.com/3nuctAt" />
+      <img alt="PayFlow" title="PayFlow" src="https://imgur.com/a/4IG661I" />
    </p>
 
    <p align="center">
