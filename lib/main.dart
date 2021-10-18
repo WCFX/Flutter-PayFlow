@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:payflow/models/login/login.dart';
 import 'package:payflow/models/splash/splash_screen.dart';
 import 'package:payflow/styles/themes/colors.dart';
 
@@ -15,7 +16,7 @@ class AppWidget extends StatelessWidget {
       theme: ThemeData(
         primaryColor: AppColors.primary,
       ),
-      home: SplashScreen(),
+      home: Login(),
     );
   }
 }
