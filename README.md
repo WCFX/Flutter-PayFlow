@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="PayFlow" src="./.git/readme/logo.png" width="200px">
+  <img alt="PayFlow" src="assets/readme/logo.png" width="200px">
 </p>
 
 <p align="center">
@@ -34,7 +34,7 @@
 <h2 align="center">Layout 🎨</h2>
 
    <p align="center">
-      <img alt="PayFlow" title="PayFlow" src="./.git/readme/capa.png"" />
+      <img alt="PayFlow" title="PayFlow" src="assets/readme/capa.png"" />
    </p>
 
    <p align="center">
@@ -74,5 +74,5 @@ $ flutter run
 ---
 
    <p align="center">
-      <img alt="NLW" title="PayFlow" src="./.git/readme/nlw.png" />
+      <img alt="NLW" title="PayFlow" src="assets/readme/nlw.png" />
    </p>
