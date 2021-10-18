@@ -28,7 +28,7 @@ class _LoginState extends State<Login> {
               height: size.height * 0.30,
             ),
             Positioned(
-              top: 40,
+              top: 50,
               left: 0,
               right: 0,
               child: Image.asset(
