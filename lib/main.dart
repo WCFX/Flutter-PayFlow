@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:payflow/models/login/login.dart';
-import 'package:payflow/models/splash/splash_screen.dart';
+import 'package:payflow/models/Login/login.dart';
+import 'package:payflow/models/SplashScreen/splash_screen.dart';
 import 'package:payflow/styles/themes/colors.dart';
 
 void main() {
