@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="PayFlow" src="https://imgur.com/a/4IG661I" width="200px">
+  <img alt="PayFlow" src="./.git/readme/logo.png" width="200px">
 </p>
 
 <p align="center">
@@ -34,7 +34,7 @@
 <h2 align="center">Layout 🎨</h2>
 
    <p align="center">
-      <img alt="PayFlow" title="PayFlow" src="https://imgur.com/a/4IG661I" />
+      <img alt="PayFlow" title="PayFlow" src="./.git/readme/capa.png"" />
    </p>
 
    <p align="center">
@@ -53,27 +53,26 @@
 
 <h2 align="center">Como Usar 🤔</h2>
 
-   ```
-   - Clone esse repositório:
-   $ git clone https://github.com/rocketseat-education/nlw-06-flutter
+```
+- Clone esse repositório:
+$ git clone https://github.com/rocketseat-education/nlw-06-flutter
 
-   - Entre no diretório:
-   $ cd nlw-06-flutter
+- Entre no diretório:
+$ cd nlw-06-flutter
 
-   - Instale as dependências:
-   $ flutter pub get
+- Instale as dependências:
+$ flutter pub get
 
-   - Inicie o app: 
-   $ flutter run
-   ```
+- Inicie o app:
+$ flutter run
+```
 
 ---
 
-   >Esse projeto foi desenvolvido com ❤️ na #NextLevelWeekTogether da **[Rocketseat  💜🚀](https://rocketseat.com.br/)**.<br> 
-   **[Participe da nossa Comunidade! 👋](https://discordapp.com/invite/gCRAFhc)**.<br>
+> Esse projeto foi desenvolvido com ❤️ na #NextLevelWeekTogether da **[Rocketseat 💜🚀](https://rocketseat.com.br/)**.<br> > **[Participe da nossa Comunidade! 👋](https://discordapp.com/invite/gCRAFhc)**.<br>
 
 ---
 
    <p align="center">
-      <img alt="NLW" title="PayFlow" src=".github/nlw.png" />
+      <img alt="NLW" title="PayFlow" src="./.git/readme/nlw.png" />
    </p>
